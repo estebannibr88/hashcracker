@@ -1,4 +1,16 @@
 import hashlib
+# -*- coding: utf-8 -*-
+
+# Banner ASCII
+banner = """
+ _               _                         _             
+ | |__   __ _ ___| |__   ___ _ __ __ _  ___| | _____ _ __ 
+ | '_ \\ / _` / __| '_ \\ / __| '__/ _` |/ __| |/ / _ \\ '__|
+ | | | | (_| \\__ \\ | | | (__| | | (_| | (__|   <  __/ |   
+ |_| |_|\\__,_|___/_| |_|\\___|_|  \\__,_|\\___|_|\\_\\___|_|   
+                                                          
+"""
+
 
 class HashGenerator:
     def __init__(self):
@@ -35,11 +47,13 @@ class HashCracker:
         
         
     
-             
+         
     
 if __name__ == "__main__":
     generador = HashGenerator()
     cracker = HashCracker()
+    
+    print(banner)
     
     while True:
         print("¿Qué desea hacer?")
